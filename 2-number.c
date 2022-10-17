@@ -14,7 +14,7 @@ int print_from_to(char *start, char *stop, char *except)
 
 	while (start <= stop)
 	{
-		if (start != except)
+		if (start != except)/*Compares ptr start with except*/
 			sum += _putchar(*start);
 		start++;
 	}
